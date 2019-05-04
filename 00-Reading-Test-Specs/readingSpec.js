@@ -13,7 +13,7 @@ describe('the function `add`', function(){
   var returnValue = 0;
 
   beforeEach(function(){
-    // re-assign returnValue to 0 before each spec
+    returnValue = 0;
   });
 
   it('adds 4 and 5, the value returned is 9', function(){
